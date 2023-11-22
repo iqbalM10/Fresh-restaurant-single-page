@@ -1,0 +1,131 @@
+.navbarArea{
+    padding: 69px 162px;
+/* align-items: center; */
+gap: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.logos{
+    color: #274C5B;
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+
+}
+.menuIcon{
+    display: none;
+}
+
+
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin-left: 30px;
+}
+.link{
+    text-decoration: none;
+    color: #274C5B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.rightSide{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.addCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 33px;
+border: 1px solid #E0E0E0;
+gap: 10px;
+}
+.search{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color:#7EB693;
+}
+.shop{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color:#274C5B;
+}
+
+.num{
+    color: #274C5B;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+margin: 0;
+}
+
+@media (max-width:768px) {
+    .logo{
+        display: flex;
+     /*    align-items: center; */
+    }
+    .navbarArea{
+        padding: 69px 16px;
+    }
+    .menuIcon{
+        display: block;
+    }
+    .ul{
+        display: none;
+    }
+    .rightSide{
+        display: none;
+    }
+}
+@media (min-width:968px) {
+    .logo{
+        display: flex;
+     /*    align-items: center; */
+    }
+    .navbarArea{
+        padding: 67px 165px;
+    }
+    .menuIcon{
+        display: block;
+    }
+    .ul{
+        display: none;
+    }
+    .rightSide{
+        display: none;
+    }
+}

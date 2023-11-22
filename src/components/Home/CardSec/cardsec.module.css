@@ -1,0 +1,91 @@
+.cardArea{
+    margin-top: 80px;
+}
+.cardSide{
+    background-image: url('https://s3-alpha-sig.figma.com/img/a092/df7c/0f45145acd098d68bd8190515f3a0d8d?Expires=1697414400&Signature=n7GUMBGL-vp6VJ1c8VfVcT4dTLN~n05P6XjihSRRoew68QIzsiVrH0qbLm1mqA4se8bV7JEUNqRO62fRfEZ8ZP3QuPbZKnSCIznZu6F9bZFmMfix0~c9Cb6qWoqCb8lJYY8jgzpyVkpljDSCYz95rFF8zM8mljPUvznuKwKiSmUq0vcQm6NAydF1yNSzWrg51Wr5~2M2pat2mrAjroYWtHbgYpdoGlrzX7BJ9aHF9dkWlXOg~XiXeo6PFPQOxUfBVzqqUjc2E7yZ8HtvWc3I1gtB9GaJo6oNrxfFnj4WT0ghm4NTAC3x~pEQISjn7YG~MSXdprw-2HUicaB-iEU-aw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 581px;
+    height: 376px;
+    transform: translateY(180deg);
+    display: flex;
+    align-items: center;
+backdrop-filter: lightgray 10%;
+    justify-content: flex-end;
+    border-radius: 25px;
+   
+}
+.cardSideRight{
+    background-image: url('https://s3-alpha-sig.figma.com/img/c374/8fdb/e7129f5bd777e36b0eabc3a1eb742cc5?Expires=1697414400&Signature=QvlT279xBjSyHKU~ZPj1r0u09wRMWrhpPmq8Zckk747K0m6ClEDRP1xqs-1B96zuDzmuCpu58HQAX0-VgZn-hrFk2FuwOnvgX4qStwrOSpgHD9f9pRV5OxeacdBm8MC~B2xEAogMdoe1Y80ba77tOTvZI~cmLHDW-uyaXbnWPpEtzfS9BSZS4sf-ODOOMs6vjrzdo2D7TlksaZo6YO70RXJ4SELYCZ7cw~CQh0RsXyHKsyEM8zzvckS2MaZhhXP6vy7mFc2Jad9ecB-xB9HvbuR8saf8OgXO9TTDMdobK~ypYTAxydm9BxbIrJdDaB8Q81RXbJrMixvLTh8t-vfFRg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    width: 581px;
+    height: 376px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+   justify-content: flex-end;
+}
+
+.cardDesc{
+
+    color: black;
+    font-family: 'Yellowtail', cursive;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.cardTitle{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+max-width: 277.633px;;
+}
+
+.cardInfo{
+    margin-left: 70px;
+   
+}
+
+@media (max-width:450px) {
+    .cardSide{
+        width: 360px;
+        height: 360px;
+        background-size: initial;
+        justify-content: space-around;
+    }
+    .cardSideRight{
+        width: 360px;
+        height: 360px;
+        background-size: initial;
+        justify-content: space-around;
+    }
+    .cardInfo{
+        margin-left: 0px;
+       
+    }
+}
+
+
+@media (min-width:1024px) {
+    .cardSide{
+        width: 440px;
+        height: 370px;
+       /*  background-size: initial;
+        justify-content: space-around; */
+    }
+    .cardSideRight{
+        width: 440px;
+        height: 370px;
+        /* background-size: initial;
+        justify-content: space-around; */
+    }
+}
